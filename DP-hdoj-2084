@@ -10,7 +10,7 @@ int dic[MAXN][MAXN];
 
 int minimum_path(int i, int j, int n)
 {
-    if(dic[i][j] >= 0)
+    if(dic[i][j] != -1)
     {
         return dic[i][j];
     }
